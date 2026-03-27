@@ -18,7 +18,7 @@ This keeps the sample beginner-friendly while showing practical Slicer automatio
 
 ## Datasets used
 - **Primary (scripted):** Slicer Sample Data → `MRHead` (required).
-- **Optional manual walkthrough:** Slicer Sample Data → `CTChest` (optional, not required for script).
+- **Optional manual walkthrough:** Slicer Sample Data -> `CTChest` (optional, not required for script).
 
 > No PHI/PII is included in this repository. Use only public/de-identified sample data.
 
@@ -56,7 +56,7 @@ This keeps the sample beginner-friendly while showing practical Slicer automatio
 ## Reproduce the sample (script)
 
 1. Start 3D Slicer.
-2. Open **View → Python Interactor**.
+2. Open **View -> Python Interactor**.
 3. Run:
    ```python
    exec(open(r"/absolute/path/to/scripts/mrhead_threshold_to_model.py", encoding="utf-8").read())
@@ -73,7 +73,7 @@ Place screenshots in `/screenshots` using these filenames:
 - `04-saved-files.png` — File browser showing saved `.seg.nrrd` and `.stl` outputs.
 
 ## What I learned
-- How to move from sample volume loading → segmentation → 3D model export in Slicer.
+- How to move from sample volume loading -> segmentation → 3D model export in Slicer.
 - Basic Slicer Python automation patterns (`SampleData`, `SegmentEditor`, save/export logic).
 
 ## Next steps
