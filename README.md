@@ -4,7 +4,7 @@
 It supports DICOM and many imaging workflows, including segmentation and 3D model generation.
 
 ## Quick project plan (dataset + approach)
-For a reliable, no-download demo, I used **3D Slicer Sample Data → MRHead** and built a simple **threshold-based segmentation** workflow.  
+For a reliable, no-download demo, I used **3D Slicer Sample Data -> MRHead** and built a simple **threshold-based segmentation** workflow.  
 The script creates one segment from intensity thresholding, then exports a **3D model** and saves both the segmentation and model files locally.  
 This keeps the sample beginner-friendly while showing practical Slicer automation.
 
@@ -17,7 +17,7 @@ This keeps the sample beginner-friendly while showing practical Slicer automatio
 - Documented manual steps, script execution, and troubleshooting.
 
 ## Datasets used
-- **Primary (scripted):** Slicer Sample Data → `MRHead` (required).
+- **Primary (scripted):** Slicer Sample Data -> `MRHead` (required).
 - **Optional manual walkthrough:** Slicer Sample Data -> `CTChest` (optional, not required for script).
 
 > No PHI/PII is included in this repository. Use only public/de-identified sample data.
@@ -51,7 +51,7 @@ This keeps the sample beginner-friendly while showing practical Slicer automatio
 8. Click **Apply**.
 9. Click **Show 3D** to generate/display the 3D surface.
 10. (Optional) Open **Segmentations** module and export segment(s) to model(s).
-11. Save scene/data via **File → Save**.
+11. Save scene/data via **File -> Save**.
 
 ## Reproduce the sample (script)
 
@@ -73,7 +73,7 @@ Place screenshots in `/screenshots` using these filenames:
 - `04-saved-files.png` — File browser showing saved `.seg.nrrd` and `.stl` outputs.
 
 ## What I learned
-- How to move from sample volume loading -> segmentation → 3D model export in Slicer.
+- How to move from sample volume loading -> segmentation -> 3D model export in Slicer.
 - Basic Slicer Python automation patterns (`SampleData`, `SegmentEditor`, save/export logic).
 
 ## Next steps
